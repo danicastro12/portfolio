@@ -1,8 +1,7 @@
-import React from "react"
-import "./aboutme.css"
-import react from "../assets/react.svg"
-import node from "../assets/nodejs.svg"
-import express from "../assets/express.svg"
+import "./aboutme.css";
+import react from "../assets/react.svg";
+import node from "../assets/nodejs.svg";
+import express from "../assets/express.svg";
 
 export const AboutMe = () => {
   return (
@@ -16,13 +15,13 @@ export const AboutMe = () => {
         </p>
         <p>
           En mi educación secundaria orientada a electronica una de las materias
-          era programación en c, con eso aprendí bastantes conceptos y luego me
-          decidi por el lado del desarrollo web.
+          era programación en C++, con eso aprendí bastantes conceptos y luego
+          me decidi por el lado del desarrollo web.
         </p>
         <p>
-          He tocado la programacion en diferentes areas como IoT, desarrollo de
-          videojuegos, programacion de microcontroladores, etc. Pero la que mas
-          me intereso fue el area del desarrollo web
+          He tocado la programacion en diferentes areas como IoT,programacion de
+          microcontroladores, etc. Pero la que mas me intereso fue el area del
+          desarrollo web
         </p>
       </div>
       <h3>Tecnologias que uso</h3>
@@ -32,5 +31,5 @@ export const AboutMe = () => {
         <img className="ico" src={express}></img>
       </div>
     </section>
-  )
-}
+  );
+};

@@ -1,5 +1,5 @@
-import React from "react"
-import "./navbar.css"
+import React from "react";
+import "./navbar.css";
 
 export const NavBar = () => {
   return (
@@ -12,12 +12,9 @@ export const NavBar = () => {
           <a href="#sobremi">Sobre mi</a>
         </li>
         <li>
-          <a href="#proyectos">Proyectos</a>
-        </li>
-        <li>
           <a>Contacto</a>
         </li>
       </ul>
     </nav>
-  )
-}
+  );
+};

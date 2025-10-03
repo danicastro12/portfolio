@@ -1,8 +1,7 @@
 .about {
   display: flex;
   width: 100vw;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding: 2.5rem 0.5rem 2.5rem 0.5rem;
   background-color: rgba(5, 15, 43, 1);
   flex-direction: column;
   flex-wrap: wrap;

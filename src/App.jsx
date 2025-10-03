@@ -1,8 +1,8 @@
-import "./App.css"
-import { AboutMe } from "./components/AboutMe"
-import { MainHeader } from "./components/MainHeader"
-import { NavBar } from "./components/NavBar"
-import { Proyects } from "./components/Proyects"
+import "./App.css";
+import { AboutMe } from "./components/AboutMe";
+import { MainHeader } from "./components/MainHeader";
+import { NavBar } from "./components/NavBar";
+import { Proyects } from "./components/Proyects";
 
 function App() {
   return (
@@ -10,9 +10,8 @@ function App() {
       <NavBar></NavBar>
       <MainHeader></MainHeader>
       <AboutMe></AboutMe>
-      <Proyects></Proyects>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
